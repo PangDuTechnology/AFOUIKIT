@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFOUIKIT"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "This library is for extending UIKit libraries."
 
   # This description is used to generate tags and improve search results.
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOUIKIT", "AFOUIKIT/*.h","AFOUIKIT/**/*.{h,m}"
+  s.source_files  = "AFOUIKIT","AFOUIKIT/*.{h,m}"
   #s.exclude_files = "AFOUIKIT/*.{h,m}""
 
-  s.public_header_files = "AFOUIKIT/**/*.h"
+  s.public_header_files = "AFOUIKIT/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
