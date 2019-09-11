@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		240BABC51FE127BF00D58435 /* AFOUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BABC31FE127BF00D58435 /* AFOUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240BABD01FE128EA00D58435 /* AFONavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BABCE1FE128EA00D58435 /* AFONavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240BABD11FE128EA00D58435 /* AFONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240BABCF1FE128EA00D58435 /* AFONavigationController.m */; };
-		240BABD41FE1293200D58435 /* AFOTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BABD21FE1293200D58435 /* AFOTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240BABD51FE1293200D58435 /* AFOTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240BABD31FE1293200D58435 /* AFOTabBarController.m */; };
-		240BABD91FE1297D00D58435 /* AFOViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BABD71FE1297D00D58435 /* AFOViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240BABDA1FE1297D00D58435 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240BABD81FE1297D00D58435 /* AFOViewController.m */; };
-		245923C61FE14D450094C3E0 /* AFOWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 245923C41FE14D450094C3E0 /* AFOWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		245923C71FE14D450094C3E0 /* AFOWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 245923C51FE14D450094C3E0 /* AFOWindow.m */; };
-		247E7A751FE24848006148C3 /* AFOCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 247E7A731FE24848006148C3 /* AFOCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247E7A761FE24848006148C3 /* AFOCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247E7A741FE24848006148C3 /* AFOCollectionView.m */; };
-		247E7A791FE24866006148C3 /* AFOCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 247E7A771FE24866006148C3 /* AFOCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		247E7A7A1FE24866006148C3 /* AFOCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 247E7A781FE24866006148C3 /* AFOCollectionViewLayout.m */; };
+		2483571823291FC70044BEC3 /* AFOViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2483570C23291FC60044BEC3 /* AFOViewController.h */; };
+		2483571923291FC70044BEC3 /* AFOWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2483570D23291FC60044BEC3 /* AFOWindow.h */; };
+		2483571A23291FC70044BEC3 /* AFOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2483570E23291FC60044BEC3 /* AFOViewController.m */; };
+		2483571B23291FC70044BEC3 /* AFONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2483570F23291FC60044BEC3 /* AFONavigationController.m */; };
+		2483571C23291FC70044BEC3 /* AFOTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2483571023291FC60044BEC3 /* AFOTabBarController.m */; };
+		2483571D23291FC70044BEC3 /* AFOWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2483571123291FC60044BEC3 /* AFOWindow.m */; };
+		2483571E23291FC70044BEC3 /* AFOCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2483571223291FC60044BEC3 /* AFOCollectionView.h */; };
+		2483571F23291FC70044BEC3 /* AFOTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2483571323291FC60044BEC3 /* AFOTabBarController.h */; };
+		2483572023291FC70044BEC3 /* AFOCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */; };
+		2483572123291FC70044BEC3 /* AFOCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */; };
+		2483572223291FC70044BEC3 /* AFOCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2483571623291FC60044BEC3 /* AFOCollectionView.m */; };
+		2483572323291FC70044BEC3 /* AFONavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2483571723291FC70044BEC3 /* AFONavigationController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,18 +38,18 @@
 		240BABC01FE127BF00D58435 /* AFOUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240BABC31FE127BF00D58435 /* AFOUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOUIKit.h; sourceTree = "<group>"; };
 		240BABC41FE127BF00D58435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		240BABCE1FE128EA00D58435 /* AFONavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFONavigationController.h; sourceTree = "<group>"; };
-		240BABCF1FE128EA00D58435 /* AFONavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFONavigationController.m; sourceTree = "<group>"; };
-		240BABD21FE1293200D58435 /* AFOTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOTabBarController.h; sourceTree = "<group>"; };
-		240BABD31FE1293200D58435 /* AFOTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOTabBarController.m; sourceTree = "<group>"; };
-		240BABD71FE1297D00D58435 /* AFOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOViewController.h; sourceTree = "<group>"; };
-		240BABD81FE1297D00D58435 /* AFOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOViewController.m; sourceTree = "<group>"; };
-		245923C41FE14D450094C3E0 /* AFOWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOWindow.h; sourceTree = "<group>"; };
-		245923C51FE14D450094C3E0 /* AFOWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOWindow.m; sourceTree = "<group>"; };
-		247E7A731FE24848006148C3 /* AFOCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCollectionView.h; sourceTree = "<group>"; };
-		247E7A741FE24848006148C3 /* AFOCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCollectionView.m; sourceTree = "<group>"; };
-		247E7A771FE24866006148C3 /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOCollectionViewLayout.h; sourceTree = "<group>"; };
-		247E7A781FE24866006148C3 /* AFOCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOCollectionViewLayout.m; sourceTree = "<group>"; };
+		2483570C23291FC60044BEC3 /* AFOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOViewController.h; path = AFOUIKIT/AFOViewController.h; sourceTree = SOURCE_ROOT; };
+		2483570D23291FC60044BEC3 /* AFOWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOWindow.h; path = AFOUIKIT/AFOWindow.h; sourceTree = SOURCE_ROOT; };
+		2483570E23291FC60044BEC3 /* AFOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOViewController.m; path = AFOUIKIT/AFOViewController.m; sourceTree = SOURCE_ROOT; };
+		2483570F23291FC60044BEC3 /* AFONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFONavigationController.m; path = AFOUIKIT/AFONavigationController.m; sourceTree = SOURCE_ROOT; };
+		2483571023291FC60044BEC3 /* AFOTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOTabBarController.m; path = AFOUIKIT/AFOTabBarController.m; sourceTree = SOURCE_ROOT; };
+		2483571123291FC60044BEC3 /* AFOWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOWindow.m; path = AFOUIKIT/AFOWindow.m; sourceTree = SOURCE_ROOT; };
+		2483571223291FC60044BEC3 /* AFOCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOCollectionView.h; path = AFOUIKIT/AFOCollectionView.h; sourceTree = SOURCE_ROOT; };
+		2483571323291FC60044BEC3 /* AFOTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOTabBarController.h; path = AFOUIKIT/AFOTabBarController.h; sourceTree = SOURCE_ROOT; };
+		2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionViewLayout.m; path = AFOUIKIT/AFOCollectionViewLayout.m; sourceTree = SOURCE_ROOT; };
+		2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOCollectionViewLayout.h; path = AFOUIKIT/AFOCollectionViewLayout.h; sourceTree = SOURCE_ROOT; };
+		2483571623291FC60044BEC3 /* AFOCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionView.m; path = AFOUIKIT/AFOCollectionView.m; sourceTree = SOURCE_ROOT; };
+		2483571723291FC70044BEC3 /* AFONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFONavigationController.h; path = AFOUIKIT/AFONavigationController.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,40 +84,21 @@
 			isa = PBXGroup;
 			children = (
 				240BABC31FE127BF00D58435 /* AFOUIKit.h */,
-				245923C31FE14CDB0094C3E0 /* Views */,
-				240BABDB1FE1298000D58435 /* ViewController */,
-				240BABD61FE1293600D58435 /* TabBarController */,
-				240BABCD1FE128C100D58435 /* NavigationController */,
+				2483571223291FC60044BEC3 /* AFOCollectionView.h */,
+				2483571623291FC60044BEC3 /* AFOCollectionView.m */,
+				2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */,
+				2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */,
+				2483571723291FC70044BEC3 /* AFONavigationController.h */,
+				2483570F23291FC60044BEC3 /* AFONavigationController.m */,
+				2483571323291FC60044BEC3 /* AFOTabBarController.h */,
+				2483571023291FC60044BEC3 /* AFOTabBarController.m */,
+				2483570C23291FC60044BEC3 /* AFOViewController.h */,
+				2483570E23291FC60044BEC3 /* AFOViewController.m */,
+				2483570D23291FC60044BEC3 /* AFOWindow.h */,
+				2483571123291FC60044BEC3 /* AFOWindow.m */,
 				240BABC41FE127BF00D58435 /* Info.plist */,
 			);
 			path = AFOUIKit;
-			sourceTree = "<group>";
-		};
-		240BABCD1FE128C100D58435 /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				240BABCE1FE128EA00D58435 /* AFONavigationController.h */,
-				240BABCF1FE128EA00D58435 /* AFONavigationController.m */,
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
-		240BABD61FE1293600D58435 /* TabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				240BABD21FE1293200D58435 /* AFOTabBarController.h */,
-				240BABD31FE1293200D58435 /* AFOTabBarController.m */,
-			);
-			path = TabBarController;
-			sourceTree = "<group>";
-		};
-		240BABDB1FE1298000D58435 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				240BABD71FE1297D00D58435 /* AFOViewController.h */,
-				240BABD81FE1297D00D58435 /* AFOViewController.m */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		2437D9C61FF3606A00E12235 /* Frameworks */ = {
@@ -127,35 +108,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		245923C31FE14CDB0094C3E0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				247E7A721FE24827006148C3 /* Collection */,
-				247E7A711FE2481A006148C3 /* Window */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		247E7A711FE2481A006148C3 /* Window */ = {
-			isa = PBXGroup;
-			children = (
-				245923C41FE14D450094C3E0 /* AFOWindow.h */,
-				245923C51FE14D450094C3E0 /* AFOWindow.m */,
-			);
-			path = Window;
-			sourceTree = "<group>";
-		};
-		247E7A721FE24827006148C3 /* Collection */ = {
-			isa = PBXGroup;
-			children = (
-				247E7A731FE24848006148C3 /* AFOCollectionView.h */,
-				247E7A741FE24848006148C3 /* AFOCollectionView.m */,
-				247E7A771FE24866006148C3 /* AFOCollectionViewLayout.h */,
-				247E7A781FE24866006148C3 /* AFOCollectionViewLayout.m */,
-			);
-			path = Collection;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -163,13 +115,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2483572123291FC70044BEC3 /* AFOCollectionViewLayout.h in Headers */,
+				2483571823291FC70044BEC3 /* AFOViewController.h in Headers */,
+				2483572323291FC70044BEC3 /* AFONavigationController.h in Headers */,
+				2483571F23291FC70044BEC3 /* AFOTabBarController.h in Headers */,
 				240BABC51FE127BF00D58435 /* AFOUIKit.h in Headers */,
-				240BABD41FE1293200D58435 /* AFOTabBarController.h in Headers */,
-				240BABD91FE1297D00D58435 /* AFOViewController.h in Headers */,
-				240BABD01FE128EA00D58435 /* AFONavigationController.h in Headers */,
-				247E7A751FE24848006148C3 /* AFOCollectionView.h in Headers */,
-				247E7A791FE24866006148C3 /* AFOCollectionViewLayout.h in Headers */,
-				245923C61FE14D450094C3E0 /* AFOWindow.h in Headers */,
+				2483571E23291FC70044BEC3 /* AFOCollectionView.h in Headers */,
+				2483571923291FC70044BEC3 /* AFOWindow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,12 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				245923C71FE14D450094C3E0 /* AFOWindow.m in Sources */,
-				240BABD51FE1293200D58435 /* AFOTabBarController.m in Sources */,
-				240BABD11FE128EA00D58435 /* AFONavigationController.m in Sources */,
-				247E7A7A1FE24866006148C3 /* AFOCollectionViewLayout.m in Sources */,
-				240BABDA1FE1297D00D58435 /* AFOViewController.m in Sources */,
-				247E7A761FE24848006148C3 /* AFOCollectionView.m in Sources */,
+				2483571D23291FC70044BEC3 /* AFOWindow.m in Sources */,
+				2483572223291FC70044BEC3 /* AFOCollectionView.m in Sources */,
+				2483572023291FC70044BEC3 /* AFOCollectionViewLayout.m in Sources */,
+				2483571B23291FC70044BEC3 /* AFONavigationController.m in Sources */,
+				2483571C23291FC70044BEC3 /* AFOTabBarController.m in Sources */,
+				2483571A23291FC70044BEC3 /* AFOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
