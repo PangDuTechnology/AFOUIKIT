@@ -75,7 +75,7 @@
 #pragma mark ------ UITabBarControllerDelegate
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     self.selectedViewController = viewController;
-    return NO;
+    return YES;
 }
 - (void)tabBarController:(UITabBarController *)tabBarController
  didSelectViewController:(UIViewController *)viewController{
