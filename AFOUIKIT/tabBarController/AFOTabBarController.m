@@ -41,12 +41,20 @@
                   animated:(BOOL)animated{
     self.controllerArray = viewControllers;
 }
+#pragma mark --- selectedViewController
 - (UIViewController *)selectedViewController{
     return self.controllerArray[self.userSelectIndex];
 }
 - (void)setSelectedViewController:(__kindof UIViewController *)selectedViewController{
     self.userSelectIndex = [self.controllerArray indexOfObject:selectedViewController];
 }
+#pragma mark --- userSelectIndex
+- (void)setUserSelectIndex:(NSInteger)userSelectIndex{
+    _userSelectIndex = userSelectIndex;
+    CGRect rectVisible = CGRectMake(CGRectGetWidth(self.view.frame) * userSelectIndex, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
+    [self.scrollView scrollRectToVisible:rectVisible animated:NO];
+}
+#pragma mark --- selectedIndex
 - (NSUInteger)selectedIndex{
     return self.userSelectIndex;
 }
@@ -55,6 +63,7 @@
     CGRect rectVisible = CGRectMake(CGRectGetWidth(self.view.frame) * selectedIndex, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
     [self.scrollView scrollRectToVisible:rectVisible animated:NO];
 }
+#pragma mark --- controllerArray
 - (void)setControllerArray:(NSArray<__kindof UIViewController *> *)controllerArray{
     _controllerArray = controllerArray;
     [controllerArray enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
