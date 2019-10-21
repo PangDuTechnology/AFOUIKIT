@@ -59,7 +59,7 @@
     [self.scrollView scrollRectToVisible:rectVisible animated:NO];
 }
 - (void)setControllerArray:(NSArray<__kindof UIViewController *> *)controllerArray{
-    self.controllerArray = controllerArray;
+    _controllerArray = controllerArray;
     [controllerArray enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [self addChildViewController:obj];
         obj.view.frame = CGRectMake(CGRectGetWidth(self.view.frame) * idx, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
