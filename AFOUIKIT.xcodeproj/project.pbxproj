@@ -39,19 +39,18 @@
 /* Begin PBXFileReference section */
 		240BABC01FE127BF00D58435 /* AFOUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240BABC31FE127BF00D58435 /* AFOUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOUIKit.h; sourceTree = "<group>"; };
-		240BABC41FE127BF00D58435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2483570C23291FC60044BEC3 /* AFOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOViewController.h; path = AFOUIKIT/AFOViewController.h; sourceTree = SOURCE_ROOT; };
-		2483570D23291FC60044BEC3 /* AFOWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOWindow.h; path = AFOUIKIT/AFOWindow.h; sourceTree = SOURCE_ROOT; };
-		2483570E23291FC60044BEC3 /* AFOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOViewController.m; path = AFOUIKIT/AFOViewController.m; sourceTree = SOURCE_ROOT; };
-		2483570F23291FC60044BEC3 /* AFONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFONavigationController.m; path = AFOUIKIT/AFONavigationController.m; sourceTree = SOURCE_ROOT; };
-		2483571023291FC60044BEC3 /* AFOTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOTabBarController.m; path = AFOUIKIT/AFOTabBarController.m; sourceTree = SOURCE_ROOT; };
-		2483571123291FC60044BEC3 /* AFOWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOWindow.m; path = AFOUIKIT/AFOWindow.m; sourceTree = SOURCE_ROOT; };
-		2483571223291FC60044BEC3 /* AFOCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOCollectionView.h; path = AFOUIKIT/AFOCollectionView.h; sourceTree = SOURCE_ROOT; };
-		2483571323291FC60044BEC3 /* AFOTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOTabBarController.h; path = AFOUIKIT/AFOTabBarController.h; sourceTree = SOURCE_ROOT; };
-		2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionViewLayout.m; path = AFOUIKIT/AFOCollectionViewLayout.m; sourceTree = SOURCE_ROOT; };
-		2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOCollectionViewLayout.h; path = AFOUIKIT/AFOCollectionViewLayout.h; sourceTree = SOURCE_ROOT; };
-		2483571623291FC60044BEC3 /* AFOCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionView.m; path = AFOUIKIT/AFOCollectionView.m; sourceTree = SOURCE_ROOT; };
-		2483571723291FC70044BEC3 /* AFONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFONavigationController.h; path = AFOUIKIT/AFONavigationController.h; sourceTree = SOURCE_ROOT; };
+		2483570C23291FC60044BEC3 /* AFOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOViewController.h; path = AFOUIKit/viewController/AFOViewController.h; sourceTree = SOURCE_ROOT; };
+		2483570D23291FC60044BEC3 /* AFOWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOWindow.h; path = "AFOUIKit/New Group/AFOWindow.h"; sourceTree = SOURCE_ROOT; };
+		2483570E23291FC60044BEC3 /* AFOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOViewController.m; path = AFOUIKit/viewController/AFOViewController.m; sourceTree = SOURCE_ROOT; };
+		2483570F23291FC60044BEC3 /* AFONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFONavigationController.m; path = "AFOUIKit/New Group/AFONavigationController.m"; sourceTree = SOURCE_ROOT; };
+		2483571023291FC60044BEC3 /* AFOTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOTabBarController.m; path = "AFOUIKit/New Group/AFOTabBarController.m"; sourceTree = SOURCE_ROOT; };
+		2483571123291FC60044BEC3 /* AFOWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOWindow.m; path = "AFOUIKit/New Group/AFOWindow.m"; sourceTree = SOURCE_ROOT; };
+		2483571223291FC60044BEC3 /* AFOCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOCollectionView.h; path = "AFOUIKit/New Group/AFOCollectionView.h"; sourceTree = SOURCE_ROOT; };
+		2483571323291FC60044BEC3 /* AFOTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOTabBarController.h; path = "AFOUIKit/New Group/AFOTabBarController.h"; sourceTree = SOURCE_ROOT; };
+		2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionViewLayout.m; path = "AFOUIKit/New Group/AFOCollectionViewLayout.m"; sourceTree = SOURCE_ROOT; };
+		2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFOCollectionViewLayout.h; path = "AFOUIKit/New Group/AFOCollectionViewLayout.h"; sourceTree = SOURCE_ROOT; };
+		2483571623291FC60044BEC3 /* AFOCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFOCollectionView.m; path = "AFOUIKit/New Group/AFOCollectionView.m"; sourceTree = SOURCE_ROOT; };
+		2483571723291FC70044BEC3 /* AFONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFONavigationController.h; path = "AFOUIKit/New Group/AFONavigationController.h"; sourceTree = SOURCE_ROOT; };
 		DB30B48123439EFF0076594E /* UIViewController+CurrentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CurrentController.h"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.h"; sourceTree = SOURCE_ROOT; };
 		DB30B48223439EFF0076594E /* UIViewController+CurrentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CurrentController.m"; path = "AFOUIKIT/viewController/UIViewController+CurrentController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -88,20 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				240BABC31FE127BF00D58435 /* AFOUIKit.h */,
-				2483571223291FC60044BEC3 /* AFOCollectionView.h */,
-				2483571623291FC60044BEC3 /* AFOCollectionView.m */,
-				2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */,
-				2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */,
-				2483571723291FC70044BEC3 /* AFONavigationController.h */,
-				2483570F23291FC60044BEC3 /* AFONavigationController.m */,
-				2483571323291FC60044BEC3 /* AFOTabBarController.h */,
-				2483571023291FC60044BEC3 /* AFOTabBarController.m */,
-				2483570C23291FC60044BEC3 /* AFOViewController.h */,
-				2483570E23291FC60044BEC3 /* AFOViewController.m */,
-				2483570D23291FC60044BEC3 /* AFOWindow.h */,
-				2483571123291FC60044BEC3 /* AFOWindow.m */,
+				723FD08F235DEFDE008AE42D /* collectionView */,
+				723FD08E235DEF44008AE42D /* navigationController */,
+				723FD08D235DEEFD008AE42D /* tabBarController */,
+				723FD08C235DEE97008AE42D /* window */,
 				DB30B48023439EBF0076594E /* viewController */,
-				240BABC41FE127BF00D58435 /* Info.plist */,
 			);
 			path = AFOUIKit;
 			sourceTree = "<group>";
@@ -113,9 +103,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		723FD08C235DEE97008AE42D /* window */ = {
+			isa = PBXGroup;
+			children = (
+				2483570D23291FC60044BEC3 /* AFOWindow.h */,
+				2483571123291FC60044BEC3 /* AFOWindow.m */,
+			);
+			path = window;
+			sourceTree = "<group>";
+		};
+		723FD08D235DEEFD008AE42D /* tabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2483571323291FC60044BEC3 /* AFOTabBarController.h */,
+				2483571023291FC60044BEC3 /* AFOTabBarController.m */,
+			);
+			path = tabBarController;
+			sourceTree = "<group>";
+		};
+		723FD08E235DEF44008AE42D /* navigationController */ = {
+			isa = PBXGroup;
+			children = (
+				2483571723291FC70044BEC3 /* AFONavigationController.h */,
+				2483570F23291FC60044BEC3 /* AFONavigationController.m */,
+			);
+			path = navigationController;
+			sourceTree = "<group>";
+		};
+		723FD08F235DEFDE008AE42D /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2483571223291FC60044BEC3 /* AFOCollectionView.h */,
+				2483571623291FC60044BEC3 /* AFOCollectionView.m */,
+				2483571523291FC60044BEC3 /* AFOCollectionViewLayout.h */,
+				2483571423291FC60044BEC3 /* AFOCollectionViewLayout.m */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
 		DB30B48023439EBF0076594E /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				2483570C23291FC60044BEC3 /* AFOViewController.h */,
+				2483570E23291FC60044BEC3 /* AFOViewController.m */,
 				DB30B48123439EFF0076594E /* UIViewController+CurrentController.h */,
 				DB30B48223439EFF0076594E /* UIViewController+CurrentController.m */,
 			);
@@ -342,7 +372,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AFOUIKit/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
@@ -363,7 +393,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AFOUIKit/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;

@@ -26,10 +26,30 @@ Pod::Spec.new do |s|
   s.source_files  = "AFOUIKIT/*.{h,m}"
   s.public_header_files = "AFOUIKIT/*.h"
 
+  s.subspec 'collectionView' do |collectionView|
+      collectionView.source_files = 'AFOUIKIT/collectionView/*.{h,m}' 
+      collectionView.public_header_files = 'AFOUIKIT/collectionView/*.h' 
+  end
+  
+  s.subspec 'navigationController' do |navigationController|
+      navigationController.source_files = 'AFOUIKIT/navigationController/*.{h,m}' 
+      navigationController.public_header_files = 'AFOUIKIT/navigationController/*.h' 
+  end
+
+  s.subspec 'tabBarController' do |tabBarController|
+      tabBarController.source_files = 'AFOUIKIT/tabBarController/*.{h,m}' 
+      tabBarController.public_header_files = 'AFOUIKIT/tabBarController/*.h' 
+  end
+
+  s.subspec 'window' do |window|
+      window.source_files = 'AFOUIKIT/window/*.{h,m}' 
+      window.public_header_files = 'AFOUIKIT/window/*.h' 
+  end
+
   s.subspec 'viewController' do |viewController|
       viewController.source_files = 'AFOUIKIT/viewController/*.{h,m}' 
       viewController.public_header_files = 'AFOUIKIT/viewController/*.h' 
-   end
+  end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
