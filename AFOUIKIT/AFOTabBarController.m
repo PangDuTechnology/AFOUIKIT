@@ -9,11 +9,10 @@
 #import "AFOTabBarController.h"
 
 @interface AFOTabBarController ()<UITabBarControllerDelegate,UIScrollViewDelegate>
-@property (nonatomic, strong)   UIScrollView                                    *scrollView;
-@property (nonatomic, strong)   NSArray<__kindof UIViewController *>            *controllerArray;
-@property (nonatomic, assign)   NSInteger                                        userSelectIndex;
+@property (nonatomic, strong)   UIScrollView                             *scrollView;
+@property (nonatomic, strong)   NSArray<__kindof UIViewController *>     *controllerArray;
+@property (nonatomic, assign)   NSInteger                                 userSelectIndex;
 @end
-
 @implementation AFOTabBarController
 #pragma mark ------ view load
 - (void)viewDidLoad {
@@ -24,11 +23,9 @@
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
@@ -89,7 +86,7 @@
 #pragma mark ------ property
 - (UIScrollView *)scrollView{
     if (!_scrollView) {
-        _scrollView = [[UIScrollView alloc] init];
+        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame))];
         _scrollView.delegate = self;
         _scrollView.pagingEnabled = YES;
         _scrollView.bounces = NO;
