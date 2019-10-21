@@ -50,9 +50,9 @@
 - (NSUInteger)selectedIndex{
     return self.userSelectIndex;
 }
-- (void)setSelectedIndex:(NSUInteger)selectedIndex{
-    self.userSelectIndex = selectedIndex;
-    CGRect rectVisible = CGRectMake(CGRectGetWidth(self.view.frame) * selectedIndex, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
+- (void)setUserSelectIndex:(NSInteger)userSelectIndex{
+    _userSelectIndex = userSelectIndex;
+    CGRect rectVisible = CGRectMake(CGRectGetWidth(self.view.frame) * userSelectIndex, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
     [self.scrollView scrollRectToVisible:rectVisible animated:NO];
 }
 - (void)setControllerArray:(NSArray<__kindof UIViewController *> *)controllerArray{
