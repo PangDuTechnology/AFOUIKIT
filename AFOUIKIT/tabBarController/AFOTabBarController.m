@@ -67,6 +67,7 @@
 #pragma mark ------ UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     NSInteger index = scrollView.contentOffset.x / CGRectGetWidth(self.view.frame);
+    self.userSelectIndex = index;
 }
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     self.userSelectIndex = scrollView.contentOffset.x / CGRectGetWidth(self.view.frame);
@@ -76,8 +77,12 @@
     self.selectedViewController = viewController;
     return NO;
 }
+- (void)tabBarController:(UITabBarController *)tabBarController
+ didSelectViewController:(UIViewController *)viewController{
+    self.selectedViewController = viewController;
+}
 - (UIInterfaceOrientationMask)tabBarControllerSupportedInterfaceOrientations:(UITabBarController *)tabBarController {
-    return UIInterfaceOrientationMaskPortrait;
+    return tabBarController.selectedViewController.supportedInterfaceOrientations;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
