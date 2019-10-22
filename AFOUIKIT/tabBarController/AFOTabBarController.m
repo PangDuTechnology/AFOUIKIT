@@ -88,7 +88,7 @@
 }
 - (void)tabBarController:(UITabBarController *)tabBarController
  didSelectViewController:(UIViewController *)viewController{
-    self.selectedViewController = viewController;
+    self.selectedIndex = [self.controllerArray indexOfObject:viewController];
 }
 - (UIInterfaceOrientationMask)tabBarControllerSupportedInterfaceOrientations:(UITabBarController *)tabBarController {
     return tabBarController.selectedViewController.supportedInterfaceOrientations;
