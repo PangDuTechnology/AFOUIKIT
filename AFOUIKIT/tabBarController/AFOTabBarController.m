@@ -48,12 +48,6 @@
 - (void)setSelectedViewController:(__kindof UIViewController *)selectedViewController{
     self.userSelectIndex = [self.controllerArray indexOfObject:selectedViewController];
 }
-#pragma mark --- userSelectIndex
-- (void)setUserSelectIndex:(NSInteger)userSelectIndex{
-    _userSelectIndex = userSelectIndex;
-    CGRect rectVisible = CGRectMake(CGRectGetWidth(self.view.frame) * userSelectIndex, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
-    [self.scrollView scrollRectToVisible:rectVisible animated:NO];
-}
 #pragma mark --- selectedIndex
 - (NSUInteger)selectedIndex{
     return self.userSelectIndex;
