@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOUIKIT"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "This library is for extending UIKit libraries."
 
   # This description is used to generate tags and improve search results.
